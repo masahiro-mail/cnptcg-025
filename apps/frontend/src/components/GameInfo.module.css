@@ -1,0 +1,89 @@
+.gameInfo {
+  background: #1a1a1a;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.turnInfo {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.turnNumber {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.turnIndicator {
+  font-size: 14px;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.3s ease;
+}
+
+.turnIndicator.yourTurn {
+  color: #4ade80;
+  font-weight: bold;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 4px rgba(74, 222, 128, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 12px rgba(74, 222, 128, 0.8);
+  }
+}
+
+.players {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.playerInfo {
+  flex: 1;
+  background: #222;
+  border: 2px solid #333;
+  border-radius: 6px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.playerInfo.active {
+  border-color: #4ade80;
+  background: #2a2a2a;
+  box-shadow: 0 0 12px rgba(74, 222, 128, 0.3);
+}
+
+.playerName {
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.playerStats {
+  display: flex;
+  gap: 12px;
+  font-size: 12px;
+  color: #999;
+}
+
+.playerStats span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.vs {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666;
+  text-transform: uppercase;
+}

@@ -1,0 +1,10 @@
+
+> @cnp-tcg/frontend@1.0.0 start /home/masahiro54/20250608_ClaudeCode/20250609_CnpTcg-002/cnp-tcg/apps/frontend
+> next start -H 0.0.0.0
+
+   ▲ Next.js 15.3.3
+   - Local:        http://localhost:3000
+   - Network:      http://0.0.0.0:3000
+
+ ✓ Starting...
+ ✓ Ready in 992ms

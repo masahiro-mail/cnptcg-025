@@ -1,0 +1,6 @@
+
+> @cnp-tcg/backend@1.0.0 start
+> node dist/index.js
+
+CNP-TCG Backend running on port 5000
+Player connected: svf-gshMpqP6q96cAAAB

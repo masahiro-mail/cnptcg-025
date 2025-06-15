@@ -1,0 +1,50 @@
+# Ignore legacy files
+tennis-game.html
+index.html
+tennis*
+
+# Ignore non-frontend directories
+apps/backend/
+server/
+client/
+packages/
+
+# Development files
+*.log
+.env.local
+.env.development
+
+# Build artifacts outside frontend
+dist/
+build/
+.next/
+out/
+
+# Node modules outside frontend
+node_modules/
+!apps/frontend/node_modules/
+
+# Test files
+*.test.*
+test/
+tests/
+
+# Documentation not needed for deployment
+*.md
+!apps/frontend/README.md
+
+# Git and development files
+.git/
+.gitignore
+.eslintrc.*
+.prettierrc
+tsconfig.json
+!apps/frontend/tsconfig.json
+
+# Turbo and workspace files
+turbo.json
+pnpm-workspace.yaml
+pnpm-lock.yaml
+
+# Only keep necessary frontend files
+!apps/frontend/
