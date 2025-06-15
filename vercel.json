@@ -8,26 +8,6 @@
   "installCommand": "pnpm install --frozen-lockfile",
   "framework": "nextjs",
   "public": false,
-  "builds": [
-    {
-      "src": "apps/frontend/next.config.js",
-      "use": "@vercel/next@latest"
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "apps/frontend/$1"
-    }
-  ],
-  "functions": {
-    "apps/frontend/src/pages/api/**/*.ts": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "env": {
     "FAST_REFRESH": "false",
     "__NEXT_DISABLE_FAST_REFRESH": "true"
