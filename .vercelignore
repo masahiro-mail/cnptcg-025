@@ -43,8 +43,6 @@ tsconfig.json
 
 # Turbo and workspace files
 turbo.json
-pnpm-workspace.yaml
-pnpm-lock.yaml
 
 # Only keep necessary frontend files
 !apps/frontend/
