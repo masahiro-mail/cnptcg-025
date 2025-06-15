@@ -9,8 +9,7 @@
   "framework": "nextjs",
   "public": false,
   "env": {
-    "FAST_REFRESH": "false",
-    "__NEXT_DISABLE_FAST_REFRESH": "true"
+    "FAST_REFRESH": "false"
   },
   "headers": [
     {
